@@ -1,0 +1,34 @@
+.recipeContainer {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #f3f3f3;
+    border-radius: 5px;
+    background-color: var(--red);
+    transition: all 200ms ease-in;
+}
+
+.recipeContainer .foodIMG {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px #f3f3f3;
+    border-radius: 150px;
+    filter: brightness(.6);
+    transition: all 200ms ease-in;
+}
+
+.recipeContainer:hover {
+    background-color: #90250E;
+    transform: translateY(-5px);
+}
+
+.recipeContainer:hover .foodIMG {
+    filter: brightness(1);
+}

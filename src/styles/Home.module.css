@@ -1,0 +1,38 @@
+.text {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text h1 {
+  font-size: 36px;
+  color: var(--red);
+}
+
+.text p {
+  width: 85%;
+  font-size: 20px;
+  margin-bottom: 30px
+}
+
+.text .subtext {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue);
+  color: #f3f3f3;
+  padding: 50px;
+}
+
+.text .subtext p {
+  width: 47%;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+
+.text .subtext p span {
+  font-size: 24px;
+  font-weight: 600;
+}

@@ -1,0 +1,32 @@
+.eventContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.eventContainer .leftIMG {
+    width: 450px;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px var(--blue);
+    border-radius: 3px;
+}
+
+.eventContainer .rightText {
+    width: calc(100% - 500px);
+    font-family: sans-serif;
+    position: relative;
+    color: var(--blue);
+}
+
+.eventContainer .rightText h3 {
+    font-size: 28px;
+}
+
+.eventContainer .rightText p {
+    font-size: 20px;
+}
+

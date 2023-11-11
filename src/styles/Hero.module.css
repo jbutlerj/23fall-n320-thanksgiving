@@ -6,6 +6,8 @@
     background-size: cover; 
     position: relative;
     filter: brightness(.5);
+    margin-bottom: 30px;
+    margin-top: 75px;
 }
 
 .callout {

@@ -1,0 +1,35 @@
+.recipes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.recipes a {
+    text-decoration: none;
+    width: calc((100% / 3) - 25px);
+}
+
+.recipeCard {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    border: solid 3px var(--blue);
+    border-radius: 10px;
+}
+
+.recipeCard .instructions {
+    width: 65%;
+    padding: 25px 12.5px 25px 25px;
+}
+
+.recipeCard .ingredients {
+    width: 32%;
+    color: #f3f3f3;
+    background-color: var(--blue);
+    padding: 25px 50px;
+    line-height: 24px;
+}

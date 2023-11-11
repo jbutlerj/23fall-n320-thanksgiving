@@ -2,7 +2,10 @@
     width: 100%;
     height: 75px;
     font-family: sans-serif;
-    position: relative;
+    position: fixed;
+    top: 0;
+    background-color: #f3f3f3;
+    z-index: 99;
 }
 
 .navContainer h1 {
@@ -41,7 +44,7 @@
     height: 3px;
     width: 0;
     margin: 0 auto;
-    background-color: var(--orange);
+    background-color: var(--dark-orange);
     transition: all 250ms ease-out;
 }
 
@@ -54,7 +57,7 @@
 }
 
 .navContainer nav ul li a:hover {
-    color: var(--orange);
+    color: var(--dark-orange);
 }
 
 .navContainer nav ul li a:hover ~ .underline {
