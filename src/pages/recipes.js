@@ -7,10 +7,10 @@ export default function Home() {
     return (
         <>
          <Head>
-            <title>Thanksgiving</title>
-        </Head>
+        <title>Thanksgiving | Recipes</title>
+      </Head>
           <Nav />
-          <Hero imageURL='/home-hero.jpg'/>
+          <Hero imageURL='/recipes-hero.jpeg' calloutColor='blackCallout' callout='Thanksgiving Recipes'/>
         </>
     )
 }

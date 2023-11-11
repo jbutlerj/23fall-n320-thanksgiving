@@ -7,10 +7,10 @@ export default function Home() {
     return (
         <>
          <Head>
-            <title>Thanksgiving</title>
-        </Head>
+        <title>Thanksgiving | Contact</title>
+      </Head>
           <Nav />
-          <Hero imageURL='/home-hero.jpg'/>
+          <Hero imageURL='/contact-hero.jpg' calloutColor='whiteCallout' callout='Submit an Order for Thanksgiving'/>
         </>
     )
 }
